@@ -1,0 +1,36 @@
+.main_container {
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.chat_header{
+    background-color: #793FDF;
+    height: 5vh;
+    padding: 5px;
+    color:#fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.user_section {
+    width: 25%;
+    background: #5FBDFF;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
+}
+
+.chats_section {
+    width: 75%;
+    background: #c0392b;
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+}
+
+.chat_header_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 1%;
+}
